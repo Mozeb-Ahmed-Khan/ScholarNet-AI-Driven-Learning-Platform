@@ -1,0 +1,41 @@
+{
+  "name": "scholar-net-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^6.5.0",
+    "assemblyai": "^4.4.2",
+    "axios": "^1.6.8",
+    "bad-words": "^3.0.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.41.1",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "deepspeech": "^0.9.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "express-session": "^1.17.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "query-string": "^9.0.0",
+    "stripe": "^14.22.0",
+    "zoomus-jssdk": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
